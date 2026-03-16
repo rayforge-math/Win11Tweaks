@@ -5,8 +5,9 @@
 ---
 
 ## 🛑 Hardware Disclaimer & Personalization
-**Important:** These scripts are currently **tailored specifically for my personal hardware and workflow.** * **Limited Scope:** To prevent compatibility issues for other users, hardware-specific modules (such as drivers or low-level firmware tweaks) that work only for my specific setup are **currently omitted** from this public version.
-* **Review the code** before running it on different hardware to ensure compatibility with your specific environment.
+**Important:** These scripts are currently **tailored specifically for my personal hardware and workflow.**
+**Limited Scope:** To prevent compatibility issues for other users, hardware-specific modules (such as drivers or low-level firmware tweaks) that work only for my specific setup are **currently omitted** from this public version.
+* **Review the code** before running it on different hardware to ensure compatibility with your specific environment and the applied settings suit your needs.
 
 ---
 
@@ -48,7 +49,7 @@ Both scripts use a modular engine. Use the `-ForceStep` and `-StopAfterStep` par
 | Step # | Module Name | Description |
 |--------|-------------|-------------|
 | 1 | Prepare Windows | Disables automatic driver installation, enables Device Manager transparency, clears Windows Update cache. |
-| 2 | System Hardening & Core Paths | Legacy login, UAC level, privacy hardening, time sync, firewall, network config, high performance mode. |
+| 2 | System Hardening | Legacy login, UAC level, privacy hardening, time sync, firewall, network config, high performance mode. |
 | 3 | Windows Cleanup | Uninstalls Office & OneDrive, removes system bloatware, disables telemetry completely. |
 | 4 | Final System Optimization | CPU parking/priority/latency tweaks, service autostart cleanup, GPU tweaks. |
 | 5 | Windows Updates | Runs Windows Update installation. |
