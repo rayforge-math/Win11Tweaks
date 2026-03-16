@@ -4,6 +4,12 @@
 
 ---
 
+## 🛑 Hardware Disclaimer & Personalization
+**Important:** These scripts are currently **tailored specifically for my personal hardware and workflow.** * **Limited Scope:** To prevent compatibility issues for other users, hardware-specific modules (such as drivers or low-level firmware tweaks) that work only for my specific setup are **currently omitted** from this public version.
+* **Review the code** before running it on different hardware to ensure compatibility with your specific environment.
+
+---
+
 ## Prerequisites: Execution Policy
 
 PowerShell restricts script execution by default. You must grant permission to run these local scripts before starting.
@@ -67,7 +73,7 @@ Both scripts use a modular engine. Use the `-ForceStep` and `-StopAfterStep` par
 
 ---
 
-## 🛠 Workflow
+## Workflow
 
 1. **System Optimization:** Open PowerShell as Administrator and run `.\SystemCleanup.ps1`
 2. **User Personalization:** Open a standard PowerShell window and run `.\UserCleanup.ps1`
